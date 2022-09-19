@@ -1,0 +1,25 @@
+/*choisir l'objet{
+    propriété : valeur;
+}
+*/
+/*
+fond = body
+*/
+
+body{
+   background-color: aquamarine; 
+   font-family: Helvetica;
+   margin-left: 80px;
+   margin-right: 80px;
+}
+h1,h2{
+    color: rgb(0, 168, 112);
+}
+div
+{background-color: aliceblue;
+    width: 600px;
+}
+.wrap{
+    width: 640px;
+    margin:auto
+}
