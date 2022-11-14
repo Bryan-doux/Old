@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Brown sugar';
+    src: url(font/Brown\ Sugar\ .ttf) format('ttf');
+        }
+  
+   :root{
+    --color: black ;
+        }
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    text-decoration: none;
+
+    }
+
+    @media screen and (min-width:  1280px) {
+        .banner {
+            grid-template-columns: 1fr 1fr;
+        }
+      }
+
+    @media screen and (min-width:  640px) {
+        .banner {
+            grid-template-columns: 1fr;
+        }
+      }
+
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 1000px;
+        margin: auto;
+        max-width: 90%;
+        background-color: white;
+    }
+
+h1{
+    font-size: 54px;
+    font-family: 'Brown Sugar';
+    }
+h2{
+    font-family: 'Brown Sugar';
+    font-size:36px;
+    }
+
+
+
+article{
+    display: grid;
+    margin-inline-end: auto ; 
+    background-color: var(--color);
+    align-self: center;
+    justify-content: center;
+    margin: 1px;
+    text-decoration: none;
+}  
+
+
+.essonne-danse{
+    display: grid;
+    margin-inline-end: auto ;
+    align-self: center;
+    justify-content: center;
+    background-color: black;
+
+    
+    
+
+                }
+
+    .essonne-danse:hover{   
+    background-image: url(media/Images\ accueil\ portfolio5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+                            }
+
+
+.titre-projet{
+    grid-template-columns: 1fr;
+    font-family: 'Brown sugar';
+    font-size: 150px;
+    color: rgba(255, 255, 255, 0);
+
+}
+
+
+
+
+.bloom{
+    display: grid;
+    margin-inline-end: auto ;
+    align-self: center;
+    justify-content: center;
+    background-color: black;
+    background-origin: border-box;
+
+}
+
+    .bloom:hover{   
+        background-image: url(media/Images\ accueil\ portfolio.png);
+        background-size: 1366px;
+        background-origin: border-box;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+
+.melboise{
+    display: grid;
+    margin-inline-end: auto ;
+    align-self: center;
+    justify-content: center;
+    background-color: black;
+    
+    }
+    
+        .melboise:hover{   
+            background-image: url(media/Images\ accueil\ portfolio4.png);
+            background-size: 1366px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    
+

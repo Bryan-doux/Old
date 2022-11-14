@@ -1,0 +1,101 @@
+
+@font-face {
+  font-family: 'Brown sugar';
+  src: url(font/Brown\ Sugar\ .ttf) format('ttf');
+ }
+
+
+body{
+
+  background-color: rgb(215, 255, 255);
+  font-size: 90%;
+
+}
+
+header{
+
+
+}
+
+
+.image {
+  min-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.discover{
+  color: rgb(63, 52, 33);
+  font-family: 'Brown sugar', sans-serif;
+  font-size: 50px;
+  align-self: center;
+
+}
+
+
+.article {
+  display: flex;
+  flex-flow: column;
+  background: white;
+  padding: 2rem;
+  
+}
+
+main{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin: 2rem;
+}
+
+img{
+
+  text-decoration: none;
+  size-adjust: 80%;
+    color: black;
+    min-width: 50px;
+    height: relative;
+    flex: 1;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+   
+
+h1{ 
+  color: rgb(63, 52, 33);
+  font-family: 'Brown sugar', sans-serif;
+  font-size: 100px;
+  align-self: center;
+}
+
+h2{ 
+  color: rgb(63, 52, 33);
+  font-family: 'Brown sugar', sans-serif;
+  font-size: 50px;
+  align-self: center;
+  
+}
+
+h3{ 
+
+  color: rgb(63, 52, 33);
+  font-family: 'helvetica', sans-serif;
+  font-size: 54px;
+  align-self: center;
+
+}
+
+h4{
+  color: rgb(63, 52, 33);
+  font-family: 'helvetica', sans-serif;
+  font-size: 25px;
+  margin-bottom: 10px;
+  align-self: center;
+  justify-self: center;
+
+}
+.titre-projet{
+
+
+}
